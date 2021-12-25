@@ -30,26 +30,35 @@
 <body>
   <header>
     <div class="header">
-      <nav class="sticky">
+            <div class="sticky">
         <div class="row">
           <a class="skip-main" href="#skip">Skip to main content</a>
           <!-- CHANGE TO ICON OR IMG WHEN YOU GET LOGO -->
-          <a href="#"><img class="logo nav-header" src="resources/css/img/circuit-acupuncture.png" alt="Circuit Acupuncture Home"/></a>
-          <a href="#" class="mobile-nav-icon js--nav-icon" aria-controls="menu"  aria-expanded="false">
+          <a href="#"><img class="logo nav-header" src="resources/css/img/circuit-acupuncture.png"
+              alt="Circuit Acupuncture Home" /></a>
+          <a href="#" class="mobile-nav-icon js--nav-icon" aria-controls="menu" aria-expanded="false">
             <i class="fas fa-bars" aria-hidden="true"></i>
             <span class="sr-only">Open
               Menu</span>
           </a>
-          <ul class="main-nav js--main-nav" id="menu">
-            <li><a href="#about-us">About Us</a></li>
-            <li><a href="#vision">Vision</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="resources/research.html">Research</a></li>
-            <li><a href="#scheduler">Schedule</a></li>
-          </ul>
+
+          <!-- Main navigation region -->
+          <nav aria-label="main">
+            <ul class="main-nav js--main-nav" id="menu">
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#vision">Vision</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="resources/research.html">Research</a></li>
+              <li><a href="#scheduler">Schedule</a></li>
+            </ul>
+          </nav>
 
         </div>
-      </nav>
+<!--               Announcements banner -->
+        <div class="announcements" role="region" aria-label="announcements">
+          <p>TEMPORARILY CLOSED: Please see our for Facebook page for updates</p>
+        </div>
+      </div>
     </div>
   </header>
 
