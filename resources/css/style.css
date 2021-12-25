@@ -175,6 +175,7 @@ nav .row {
 .sticky .main-nav li a:visited {
     padding: 16px 0;
     color: #555;
+    margin-top: 100px;
 }
 
 /* HEADINGS */
