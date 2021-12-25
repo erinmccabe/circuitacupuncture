@@ -461,3 +461,17 @@ footer p {
 .research-links li:focus {
     border-bottom: 2px solid #F8D2BF;
 }
+
+/* Announcements banner  */
+.announcements {
+    background-color: #F8D2BF;
+    color: #3A3A3A;
+    height: 35px;
+    margin-top: 100px;
+    display: block;
+}
+
+.announcements p {
+    text-align: center;
+    padding-top: 5px;
+}
